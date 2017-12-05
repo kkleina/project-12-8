@@ -18,7 +18,7 @@ $(function() {
     duration: '1000',
     reset: true
   });
-  sr.reveal('section h1', {
+  sr.reveal('section:not(.services) h1', {
     origin: 'right',
     distance: '50%',
     duration: '1000',
